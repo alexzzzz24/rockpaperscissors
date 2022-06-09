@@ -1,0 +1,52 @@
+.choices{
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+}
+
+button{
+    cursor: pointer;
+    width: 150px;
+    height: 70px;
+    margin-top: 2rem;
+    border-radius: 8px;
+    background-color: blanchedalmond;
+    font-size: 1.6rem;
+    transition: 100ms;
+
+}
+
+button:hover{
+    transform: scale(1.3);
+
+}
+
+
+.result{
+    font-size: 2.5rem;
+    margin-top: 3rem;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(2,1fr);
+    justify-items: center;
+    align-items: center;
+}
+
+.score-result{
+    margin-left: 0.1rem;
+    font-size: 2rem;
+    color:red;
+
+}
+
+.selectionWinner{
+    opacity: 1;
+    font-size: 2rem;
+}
+
+.selectionLoser{
+    text-decoration: line-through;
+    text-decoration-color: red;
+    font-size: 2rem;
+    opacity: 0.5;
+}
