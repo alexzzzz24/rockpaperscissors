@@ -27,6 +27,7 @@ let computerScore=0;
 
 //determine winner
 function playRound(playerSelection,computerSelection){
+    
     playerSelection=playerSelection.toLowerCase();
     if (playerSelection==='rock'){
         if (computerSelection==='paper'){
